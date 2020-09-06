@@ -1,0 +1,44 @@
+@font-face{
+    font-family: fuentelab;
+    src: url(fuentes/lab.otf);
+}
+
+.titulo{
+    font-family: fuentelab;
+    font-size: 58px;
+    color: #3f0d0d;
+    background-color: rgba(180, 142, 111, 0.6);
+    
+    border-bottom-style: solid;
+    border-left: solid;
+    border-color: rgb(61, 54, 48);
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    color: #6d2b2b;
+    background: none;
+    text-align: left;
+}
+
+.box1{
+    width: 16%;
+    height: 60%;
+    background-color: rgba(243, 213, 189, 0.6);
+    padding-left: 58px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 20px;   
+}
+
+h2{
+    color: #ebd9d9;
+    background-color: #6d2b2b;
+    padding-left: 0%;
+}
+

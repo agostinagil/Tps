@@ -1,0 +1,17 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+h1{
+    color: #7a4141;
+    background-color: #e4c6c6;
+    border-radius: 4px;
+    border: solid #6e3535;
+    text-align: center;
+    padding: 1rem
+}
+.tab{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <h1 style="font-style: initial;color:seagreen">Contactate con ReBox!</h1>
+    <p>
+        Dejanos acá tu consulta o reclamo y nosotros te responderemos a la brevedad.
+    </p>
+    <form method="POST" action="contacto">
+        <div>
+            <label for="nombre"></label>
+            <input type="text" maxlength="15" placeholder="Nombre" autofocus required name="nombre" id="nombre">
+        </div>
+        <br>
+        <div>
+            <laber for="apellido"></laber>
+            <input type="text" maxlength="15" placeholder="Apellido" required name="apellido" id="apellido">
+        </div>
+        <br>
+        <div>
+            <label for="correo"></label>
+            <input type="email" placeholder="correo electrónico" required name="correo" id="correo">
+        </div>
+        <br>
+        <div>
+            <label for="comentario"><h3 style="color:darksalmon">Dejanos tu comentario acá</h3></label>
+            <br>
+            <div>
+                <textarea name="comentario" id="comentario" rows="15" cols="60" required maxlength="560"></textarea>
+            </div>
+        </div>
+        <br>
+        <button type="submit"><strong>ENVIAR</strong></button>
+        <button type="reset">Eliminar los datos</button>
+    </form>
+    <br>
+    <a href="Index.html"><strong>Volver al inicio</strong></a>
+</body>

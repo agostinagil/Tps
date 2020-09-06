@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="ej1.css">
+    <script src="ej1.js"></script>
+</head>
+<body>
+        <div class="console">
+            <div class="raw bienv">
+                <div class="col-lg-8">
+                    <h1 class="titulo"> Bienvenido al juego!</h1>
+                </div>
+            </div>
+        </div>
+    
+    <div class="console">
+        <div class="raw box">
+            <div class="col-lg-5 caja">
+               <form>
+                  <p>
+                    Al presionar el botón se tirarán los dados
+                  </p>
+                  <button onclick="azar" class="btn botn" id="btn"> TIRAR DADOS</button>
+               </form>
+            </div>
+        </div>
+        <div class="raw res">
+
+            <div class="col-lg-5 resultado" id="resultado" >
+                 <script> azar()</script></p>
+            </div>
+        </div>
+    </div>
+    
+   <!-- <script>
+        azar()
+    </script> -->
+</body>
+</html>

@@ -1,0 +1,45 @@
+.bienv{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.titulo{
+    text-align: center !important;
+    background-color: rgb(136, 198, 183) !important;
+    color: white !important;
+    padding: 1rem
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.caja{
+    background-color: darksalmon;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    padding-top: 0.75rem;
+    font-size: 1.25rem;
+}
+.res{
+display: flex;
+justify-content: center;
+margin-top: 2rem;
+}
+.resultado{
+    background-color: rgb(156, 206, 201);
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1.50rem;
+    color: white;
+    padding-top: 1rem;
+}
+.botn{
+    background-color: white;
+    color: darkseagreen;
+    margin: 1rem;
+    border-style: solid;
+    border-color: rgb(103, 154, 103);
+}
